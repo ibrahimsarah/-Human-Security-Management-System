@@ -9,7 +9,7 @@ A secure web application implementing digital identity management using Keycloak
 
 ---
 
-## 👥 Team Members
+##  Team Members
 
 - **Sarah Ibrahim**
 - **Marina Kamil**
@@ -22,7 +22,7 @@ A secure web application implementing digital identity management using Keycloak
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [System Architecture](#-system-architecture)
 - [Features](#-features)
@@ -39,7 +39,7 @@ A secure web application implementing digital identity management using Keycloak
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌──────────────────┐
@@ -139,7 +139,7 @@ Before starting, ensure you have installed:
 
 ---
 
-## 📦 Installation Guide
+##  Installation Guide
 
 ### Step 1: Clone Repository
 
@@ -358,7 +358,7 @@ CREATE TABLE admin (
 
 ---
 
-## 🎭 User Roles & Permissions
+##  User Roles & Permissions
 
 | Role | Permissions | Allowed Operations |
 |------|-------------|-------------------|
