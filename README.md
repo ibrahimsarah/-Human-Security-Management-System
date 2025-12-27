@@ -291,9 +291,7 @@ python create_users.py
    Failed: 0 users
 ============================================================
 ```
-
-![User Import Success](https://github.com/user-attachments/assets/747ccb2f-4905-415d-a2de-e2b21be2b358)
-
+![WhatsApp Image 2025-12-22 at 6 40 58 PM](https://github.com/user-attachments/assets/6bf171d9-abac-4a46-a5ce-053ed0f288fc)
 ---
 
 ### Step 6: Frontend Setup
@@ -438,22 +436,22 @@ curl -X GET http://localhost:5000/students \
 ##  Screenshots
 
 ### 1. Custom Keycloak Login Page
-*University-branded login interface with custom styling*
 
-### 2. User Dashboard
-*Main application dashboard showing user information and role-based actions*
+![WhatsApp Image 2025-12-26 at 12 58 44 PM](https://github.com/user-attachments/assets/de6a29ae-6200-4e97-8625-518e6affc045)
 
-### 3. Students Management
-*Students list with CRUD operations based on user roles*
 
-### 4. Staff Management
-*Staff records with admin-only access controls*
+### 2. Students Management
+![WhatsApp Image 2025-12-26 at 12 58 45 PM](https://github.com/user-attachments/assets/2d84ab61-d64f-4053-a317-23ca24d0ca2a)
 
-### 5. Keycloak Admin Console
-*Realm configuration showing roles, clients, and users*
 
-### 6. Excel User Import Success
-*Successful bulk user import via Keycloak Admin API*
+### 3. Keycloak Admin Console
+
+<img width="1919" height="762" alt="image" src="https://github.com/user-attachments/assets/6cedb2b5-0610-48e4-be6f-f7b0b73ecb60" />
+
+
+### 4. Excel User Import Success
+
+![User Import Success](https://github.com/user-attachments/assets/747ccb2f-4905-415d-a2de-e2b21be2b358)
 
 ---
 
@@ -584,22 +582,16 @@ lsof -ti:8080 | xargs kill -9
 
 ## Running the Complete System
 
-**Open 4 terminals**:
-
 ```bash
-# Terminal 1: Start Keycloak
 cd keycloak/bin
 kc.bat start-dev
 
-# Terminal 2: Start Backend
 cd backend
 python app.py
 
-# Terminal 3: Start Frontend
 cd frontend
 npm start
 
-# Terminal 4: Import Users (run once)
 cd backend
 python create_users.py
 ```
